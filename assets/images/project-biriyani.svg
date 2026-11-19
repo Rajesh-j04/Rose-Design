@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <linearGradient id="bbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241417" />
+      <stop offset="50%" stop-color="#3D1A22" />
+      <stop offset="100%" stop-color="#171514" />
+    </linearGradient>
+    <linearGradient id="bbGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB8" />
+      <stop offset="50%" stop-color="#B08A57" />
+      <stop offset="100%" stop-color="#805B27" />
+    </linearGradient>
+    <linearGradient id="bbRose" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#672D39" />
+      <stop offset="60%" stop-color="#A76570" />
+      <stop offset="100%" stop-color="#D9B1AE" />
+    </linearGradient>
+    <linearGradient id="bbCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#261A1D" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#171415" stop-opacity="0.98" />
+    </linearGradient>
+    <filter id="bbShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" rx="16" fill="url(#bbBg)"/>
+  
+  <!-- Subtle Ornamental Accents -->
+  <circle cx="680" cy="480" r="180" fill="#672D39" opacity="0.3" filter="blur(60px)"/>
+  <circle cx="150" cy="120" r="180" fill="#B08A57" opacity="0.1" filter="blur(50px)"/>
+  <circle cx="400" cy="300" r="270" stroke="url(#bbGold)" stroke-width="0.8" stroke-dasharray="3 6" opacity="0.25"/>
+
+  <!-- Device / Mockup Card (Culinary Branding & QSR Platform) -->
+  <g transform="translate(120, 80)" filter="url(#bbShadow)">
+    <rect width="560" height="380" rx="14" fill="url(#bbCard)" stroke="url(#bbGold)" stroke-width="1.2"/>
+    
+    <!-- Top Bar -->
+    <rect width="560" height="36" rx="14" fill="#1C1315"/>
+    <circle cx="24" cy="18" r="4.5" fill="#A76570"/>
+    <circle cx="40" cy="18" r="4.5" fill="#B08A57"/>
+    <circle cx="56" cy="18" r="4.5" fill="#183B32"/>
+    <rect x="180" y="10" width="200" height="16" rx="8" fill="#29181B"/>
+    <text x="280" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE" text-anchor="middle" letter-spacing="1">biriyanibox.com</text>
+
+    <!-- Main Content Area -->
+    <g transform="translate(36, 56)">
+      <!-- Left Column: Branding Typography -->
+      <g transform="translate(0, 8)">
+        <text font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#B08A57" text-transform="uppercase">AUTHENTIC QSR &amp; BRAND IDENTITY</text>
+        <text y="36" font-family="'Cormorant Garamond', serif" font-size="34" font-weight="600" fill="#F7F3EC" letter-spacing="0.5">
+          Royal Dum Biryani <tspan font-style="italic" fill="url(#bbRose)">in a</tspan>
+        </text>
+        <text y="70" font-family="'Cormorant Garamond', serif" font-size="34" font-weight="600" fill="#F7F3EC">Modern Box.</text>
+        
+        <text y="104" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" opacity="0.85">
+          Crafting heritage aromas into an elevated QSR concept.
+        </text>
+        <text y="122" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" opacity="0.85">
+          Custom eco-packaging, direct ordering UI, and brand architecture.
+        </text>
+
+        <!-- Feature Badges -->
+        <g transform="translate(0, 144)">
+          <rect width="90" height="22" rx="11" fill="#672D39" stroke="url(#bbGold)" stroke-width="0.6"/>
+          <text x="45" y="15" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#F7F3EC" text-anchor="middle">SLOW DUM</text>
+
+          <rect x="98" width="95" height="22" rx="11" fill="#171514" stroke="#B08A57" stroke-width="0.6"/>
+          <text x="145" y="15" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#F7F3EC" text-anchor="middle">ECO PACKAGING</text>
+
+          <rect x="201" width="90" height="22" rx="11" fill="#183B32" stroke="#B08A57" stroke-width="0.6"/>
+          <text x="246" y="15" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#F7F3EC" text-anchor="middle">APP ORDERING</text>
+        </g>
+
+        <!-- Order Options -->
+        <g transform="translate(0, 185)">
+          <rect width="145" height="65" rx="8" fill="#1E1214" stroke="#B08A57" stroke-width="0.6"/>
+          <text x="14" y="24" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#F7F3EC">Hyderabadi Dum</text>
+          <text x="14" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE">Aged basmati &amp; saffron</text>
+          <text x="14" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="url(#bbGold)">A$ 19.90</text>
+
+          <rect x="155" width="145" height="65" rx="8" fill="#1E1214" stroke="#B08A57" stroke-width="0.6"/>
+          <text x="169" y="24" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#F7F3EC">Nawabi Mutton</text>
+          <text x="169" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE">Slow-braised spiced cut</text>
+          <text x="169" y="56" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="url(#bbGold)">A$ 23.50</text>
+        </g>
+      </g>
+
+      <!-- Right Column: Premium Box Packaging Mockup Graphic -->
+      <g transform="translate(350, 20)">
+        <!-- Box Isometric Face Top -->
+        <polygon points="75,10 145,45 75,80 5,45" fill="#672D39" stroke="url(#bbGold)" stroke-width="1.5"/>
+        <!-- Box Face Left -->
+        <polygon points="5,45 75,80 75,170 5,135" fill="#3D1A22" stroke="url(#bbGold)" stroke-width="1.5"/>
+        <!-- Box Face Right -->
+        <polygon points="75,80 145,45 145,135 75,170" fill="#241417" stroke="url(#bbGold)" stroke-width="1.5"/>
+        
+        <!-- Rose / Botanical Seal on Box Top -->
+        <circle cx="75" cy="45" r="16" fill="#171514" stroke="url(#bbGold)" stroke-width="1"/>
+        <text x="75" y="49" font-family="'Cormorant Garamond', serif" font-size="11" font-weight="700" fill="url(#bbGold)" text-anchor="middle">BB</text>
+
+        <!-- Brand Ribbon on Box Side -->
+        <text x="40" y="115" font-family="'Cormorant Garamond', serif" font-size="13" font-weight="600" fill="#F7F3EC" transform="rotate(27, 40, 115)">BIRIYANI BOX</text>
+        
+        <!-- CTA Pill -->
+        <rect x="25" y="195" width="100" height="24" rx="12" fill="url(#bbGold)"/>
+        <text x="75" y="211" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#171514" text-anchor="middle" letter-spacing="1">ORDER BOX</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Project Label -->
+  <g transform="translate(120, 500)">
+    <rect width="560" height="60" rx="10" fill="#171514" stroke="#B08A57" stroke-width="0.8" opacity="0.95"/>
+    <text x="24" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#B08A57" text-transform="uppercase">FOOD &amp; HOSPITALITY REBRANDING</text>
+    <text x="24" y="46" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600" fill="#F7F3EC">Biriyani Box — Complete QSR Brand Identity, Custom Packaging &amp; Digital Store</text>
+    <text x="536" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#D9B1AE" text-anchor="end">Direct-to-Consumer →</text>
+  </g>
+</svg>

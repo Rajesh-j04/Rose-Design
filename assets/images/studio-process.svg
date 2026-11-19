@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450" fill="none">
+  <defs>
+    <linearGradient id="procGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB8" />
+      <stop offset="50%" stop-color="#B08A57" />
+      <stop offset="100%" stop-color="#805B27" />
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F181B" />
+      <stop offset="100%" stop-color="#141213" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182721" />
+      <stop offset="100%" stop-color="#111B18" />
+    </linearGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2433" />
+      <stop offset="100%" stop-color="#101721" />
+    </linearGradient>
+    <filter id="procShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="450" rx="16" fill="#171514"/>
+  
+  <!-- Subtle Connecting Stem Line -->
+  <path d="M 180 200 C 320 200, 360 200, 500 200 C 640 200, 680 200, 820 200" stroke="url(#procGold)" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6"/>
+
+  <!-- Step 01 / Discover -->
+  <g transform="translate(60, 45)" filter="url(#procShadow)">
+    <rect width="260" height="340" rx="12" fill="url(#cardGrad1)" stroke="url(#procGold)" stroke-width="1"/>
+    
+    <!-- Step Badge -->
+    <circle cx="130" cy="70" r="38" fill="#24191C" stroke="url(#procGold)" stroke-width="1.2"/>
+    <circle cx="130" cy="70" r="32" stroke="#672D39" stroke-width="0.8" stroke-dasharray="2 3"/>
+    <!-- Compass / Lens Motif -->
+    <path d="M 130 46 L 133 67 L 154 70 L 133 73 L 130 94 L 127 73 L 106 70 L 127 67 Z" fill="url(#procGold)"/>
+
+    <text x="130" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#B08A57" text-anchor="middle">01 / DISCOVER</text>
+    <text x="130" y="175" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#F7F3EC" text-anchor="middle">Unearthing the Soul</text>
+    <line x1="80" y1="195" x2="180" y2="195" stroke="#672D39" stroke-width="1"/>
+
+    <text x="130" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Brand Narrative Immersion</text>
+    <text x="130" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Competitive Landscape</text>
+    <text x="130" y="271" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Audience Demographics</text>
+    <text x="130" y="294" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Strategic Positioning</text>
+
+    <!-- Bottom Accent Pill -->
+    <rect x="70" y="315" width="120" height="18" rx="9" fill="#2E1C22"/>
+    <text x="130" y="328" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#D9B1AE" text-anchor="middle" letter-spacing="1">FOUNDATION</text>
+  </g>
+
+  <!-- Step 02 / Create -->
+  <g transform="translate(370, 45)" filter="url(#procShadow)">
+    <rect width="260" height="340" rx="12" fill="url(#cardGrad2)" stroke="url(#procGold)" stroke-width="1.4"/>
+    
+    <!-- Step Badge with Gold Highlight -->
+    <circle cx="130" cy="70" r="38" fill="#1B2E26" stroke="url(#procGold)" stroke-width="1.5"/>
+    <circle cx="130" cy="70" r="32" stroke="#B08A57" stroke-width="0.8" stroke-dasharray="2 3"/>
+    <!-- Rose Monogram Petal Motif -->
+    <circle cx="130" cy="70" r="16" fill="url(#procGold)" opacity="0.3"/>
+    <path d="M 125 56 C 137 56, 142 63, 142 70 C 142 77, 137 84, 125 84 L 125 56 Z" fill="none" stroke="url(#procGold)" stroke-width="2"/>
+    <line x1="123" y1="56" x2="123" y2="84" stroke="url(#procGold)" stroke-width="2.5" stroke-linecap="round"/>
+
+    <text x="130" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#B08A57" text-anchor="middle">02 / CREATE</text>
+    <text x="130" y="175" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#F7F3EC" text-anchor="middle">Crafting the Identity</text>
+    <line x1="80" y1="195" x2="180" y2="195" stroke="#183B32" stroke-width="1"/>
+
+    <text x="130" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Bespoke Monogram &amp; Logo</text>
+    <text x="130" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Artisanal Colour &amp; Type</text>
+    <text x="130" y="271" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">UI/UX Digital Architecture</text>
+    <text x="130" y="294" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Web &amp; Packaging Systems</text>
+
+    <rect x="70" y="315" width="120" height="18" rx="9" fill="#183B32"/>
+    <text x="130" y="328" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#F7F3EC" text-anchor="middle" letter-spacing="1">ARTISAN CRAFT</text>
+  </g>
+
+  <!-- Step 03 / Connect -->
+  <g transform="translate(680, 45)" filter="url(#procShadow)">
+    <rect width="260" height="340" rx="12" fill="url(#cardGrad3)" stroke="url(#procGold)" stroke-width="1"/>
+    
+    <!-- Step Badge -->
+    <circle cx="130" cy="70" r="38" fill="#1E2838" stroke="url(#procGold)" stroke-width="1.2"/>
+    <circle cx="130" cy="70" r="32" stroke="#172536" stroke-width="0.8" stroke-dasharray="2 3"/>
+    <!-- Expanding Radiance / Network Motif -->
+    <circle cx="130" cy="70" r="8" fill="url(#procGold)"/>
+    <circle cx="130" cy="70" r="16" stroke="url(#procGold)" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <circle cx="130" cy="70" r="23" stroke="#D9B1AE" stroke-width="0.8" opacity="0.6"/>
+
+    <text x="130" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#B08A57" text-anchor="middle">03 / CONNECT</text>
+    <text x="130" y="175" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#F7F3EC" text-anchor="middle">Igniting Market Impact</text>
+    <line x1="80" y1="195" x2="180" y2="195" stroke="#172536" stroke-width="1"/>
+
+    <text x="130" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">High-Converting Launch</text>
+    <text x="130" y="248" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">SEO &amp; Search Visibility</text>
+    <text x="130" y="271" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Narrative Digital Campaigns</text>
+    <text x="130" y="294" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" text-anchor="middle">Sustained Brand Bloom</text>
+
+    <rect x="70" y="315" width="120" height="18" rx="9" fill="#172536"/>
+    <text x="130" y="328" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="600" fill="#F7F3EC" text-anchor="middle" letter-spacing="1">GROWTH &amp; BLOOM</text>
+  </g>
+</svg>

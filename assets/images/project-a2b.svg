@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <linearGradient id="a2bBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1916" />
+      <stop offset="50%" stop-color="#183B32" />
+      <stop offset="100%" stop-color="#171514" />
+    </linearGradient>
+    <linearGradient id="a2bGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB8" />
+      <stop offset="50%" stop-color="#B08A57" />
+      <stop offset="100%" stop-color="#805B27" />
+    </linearGradient>
+    <linearGradient id="a2bCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24211E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#171514" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="a2bShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" rx="16" fill="url(#a2bBg)"/>
+  
+  <!-- Subtle Ornamental Flourish -->
+  <circle cx="400" cy="300" r="260" stroke="url(#a2bGold)" stroke-width="0.8" stroke-dasharray="4 6" opacity="0.3"/>
+  <circle cx="400" cy="300" r="210" stroke="#F7F3EC" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="680" cy="120" r="160" fill="#B08A57" opacity="0.08" filter="blur(40px)"/>
+  <circle cx="120" cy="480" r="180" fill="#183B32" opacity="0.25" filter="blur(50px)"/>
+
+  <!-- Device / Mockup Card (Digital Dining Platform) -->
+  <g transform="translate(120, 80)" filter="url(#a2bShadow)">
+    <!-- Browser / App Frame -->
+    <rect width="560" height="380" rx="14" fill="url(#a2bCard)" stroke="url(#a2bGold)" stroke-width="1.2"/>
+    
+    <!-- Top Bar -->
+    <rect width="560" height="36" rx="14" fill="#1A1817"/>
+    <circle cx="24" cy="18" r="4.5" fill="#A76570"/>
+    <circle cx="40" cy="18" r="4.5" fill="#B08A57"/>
+    <circle cx="56" cy="18" r="4.5" fill="#183B32"/>
+    <rect x="180" y="10" width="200" height="16" rx="8" fill="#24201D"/>
+    <text x="280" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE" text-anchor="middle" letter-spacing="1">a2bperth.com.au</text>
+
+    <!-- Main Content Area -->
+    <g transform="translate(36, 60)">
+      <!-- Left Column: Branding & Heritage Typography -->
+      <text font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#B08A57" text-transform="uppercase">A2B PERTH · WESTERN AUSTRALIA</text>
+      <text y="38" font-family="'Cormorant Garamond', 'Playfair Display', serif" font-size="34" font-weight="600" fill="#F7F3EC" letter-spacing="0.5">
+        The Royal Legacy <tspan font-style="italic" fill="url(#a2bGold)">of</tspan>
+      </text>
+      <text y="74" font-family="'Cormorant Garamond', 'Playfair Display', serif" font-size="34" font-weight="600" fill="#F7F3EC">South Indian Dining.</text>
+      
+      <text y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" opacity="0.85" width="280">
+        Authentic vegetarian heritage reimagined for Perth foodies.
+      </text>
+      <text y="126" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#D9B1AE" opacity="0.85">
+        From Yokine to Harrisdale — a seamless culinary journey.
+      </text>
+
+      <!-- Pill Badges -->
+      <g transform="translate(0, 150)">
+        <rect width="90" height="24" rx="12" fill="#183B32" stroke="url(#a2bGold)" stroke-width="0.7"/>
+        <text x="45" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#F7F3EC" text-anchor="middle">RESERVATIONS</text>
+
+        <rect x="100" width="85" height="24" rx="12" fill="#2E2421" stroke="#A76570" stroke-width="0.7"/>
+        <text x="142" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#D9B1AE" text-anchor="middle">ONLINE MENU</text>
+
+        <rect x="195" width="65" height="24" rx="12" fill="#172536"/>
+        <text x="227" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="500" fill="#F7F3EC" text-anchor="middle">SWEETS</text>
+      </g>
+
+      <!-- Menu Snippet Cards -->
+      <g transform="translate(0, 195)">
+        <rect width="130" height="70" rx="8" fill="#1A1817" stroke="#B08A57" stroke-width="0.5" opacity="0.9"/>
+        <text x="12" y="24" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="600" fill="#F7F3EC">Masala Dosa</text>
+        <text x="12" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE">Golden crisp crêpe</text>
+        <text x="12" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="url(#a2bGold)">A$ 16.50</text>
+
+        <rect x="145" width="130" height="70" rx="8" fill="#1A1817" stroke="#B08A57" stroke-width="0.5" opacity="0.9"/>
+        <text x="157" y="24" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="600" fill="#F7F3EC">Royal Thali</text>
+        <text x="157" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#D9B1AE">Traditional banquet</text>
+        <text x="157" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="url(#a2bGold)">A$ 24.00</text>
+      </g>
+    </g>
+
+    <!-- Right Column: Visual Showcase (Brass Plate / Ghee Roast Motif) -->
+    <g transform="translate(365, 80)">
+      <circle cx="85" cy="85" r="75" fill="#183B32" stroke="url(#a2bGold)" stroke-width="2"/>
+      <circle cx="85" cy="85" r="62" stroke="url(#a2bGold)" stroke-width="1" stroke-dasharray="3 3"/>
+      
+      <!-- Artistic Brass Thali / Lotus Motif -->
+      <path d="M 85 45 C 95 65, 125 75, 125 85 C 125 105, 95 115, 85 125 C 75 115, 45 105, 45 85 C 45 75, 75 65, 85 45 Z" fill="#672D39" opacity="0.8"/>
+      <circle cx="85" cy="85" r="22" fill="#B08A57"/>
+      <text x="85" y="90" font-family="'Cormorant Garamond', serif" font-size="22" font-weight="700" fill="#171514" text-anchor="middle">A2B</text>
+
+      <rect x="10" y="185" width="150" height="32" rx="16" fill="url(#a2bGold)"/>
+      <text x="85" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#171514" text-anchor="middle" letter-spacing="1">BOOK A TABLE</text>
+    </g>
+  </g>
+
+  <!-- Bottom Project Label -->
+  <g transform="translate(120, 500)">
+    <rect width="560" height="60" rx="10" fill="#171514" stroke="#B08A57" stroke-width="0.8" opacity="0.95"/>
+    <text x="24" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#B08A57" text-transform="uppercase">PORTFOLIO CASE STUDY</text>
+    <text x="24" y="46" font-family="'Cormorant Garamond', serif" font-size="18" font-weight="600" fill="#F7F3EC">A2B Perth — Brand Identity, Digital Dining Experience &amp; Architecture</text>
+    <text x="536" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="#D9B1AE" text-anchor="end">Yokine &amp; Harrisdale, WA →</text>
+  </g>
+</svg>
